@@ -1,0 +1,243 @@
+html{
+	font-size: 62.5%;
+}
+
+@media (min-width: 460px){ 
+
+	body{
+		font-size: 2.7em;
+		background-image: url("https://i.pinimg.com/originals/8e/ee/04/8eee04aeefee34699b413b5a55079b82.jpg");
+		background-size: 80%;
+	}
+	#title{
+		font-family:'Smooch Sans';
+		color: #FFFFFF;
+		text-align: center;
+    	margin: 0;
+    	font-size:6.5rem ;
+    	text-shadow:;
+	}
+	#description{
+		font-family: 'Smooch sans';
+		color: #FFFFFF;
+		text-align: center;
+		margin: 0;
+		font-size: 3.5rem;
+		font-style: italic;
+	}
+	form{
+		background-color: #3499;
+		font-family: 'Hubballi';
+		font-size: 2.4rem;
+		color: #FFFFFF;
+		padding: 2rem;
+		width: 60rem;
+		border-radius: 1rem;
+		display: block;
+		margin:0 auto;
+	}
+
+	#name-input{
+		text-align: center;
+		font-size: 2.4rem;
+	}
+
+	#name{
+		display: block;
+		margin:0 auto ;
+		border-radius: 5px;
+	}
+
+	#email-input{
+		text-align: center;
+		font-size: 2.4rem;
+	}
+
+	#email{
+		display: block;
+		margin:0 auto ;
+		border-radius: 5px;
+	}
+
+	#number-input{
+		text-align: center;
+		font-size: 2.4rem;
+	}
+
+	#number{
+		width:11rem;
+		display: block;
+		margin: 0 auto;
+		border-radius: 5px;
+	}
+
+	#dropdown-input{
+		text-align: center;
+		font-size: 2.4rem;
+	}
+
+	#dropdown{
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 1rem;
+		text-align: center;
+		border-radius: 5px;
+	}
+
+	#checkbox-label{
+		font-size: 2.4rem;
+	}
+
+	#checkbox{
+		margin-bottom: 1rem;
+		text-align: center;
+	}
+
+	#radio-label{
+		font-size: 2.4rem;
+	}
+
+	#radio{
+		margin-bottom: 1rem;
+		text-align: center;
+	}
+
+	#opinions-input{
+		text-align:center ;
+	}
+
+	#opinions{
+		margin-bottom: 1rem; 
+		font-size: 1.8rem;
+		width: 37rem;
+		border-radius: 10px;
+	}
+
+	#submit-botton{
+		text-align: center;
+	}
+
+}
+
+@media (max-width: 460px){
+
+	body{
+		font-size: 2.4em;
+		background-image: url("https://i.pinimg.com/originals/8e/ee/04/8eee04aeefee34699b413b5a55079b82.jpg");
+		background-size: 100%;
+	}
+
+	form{
+		background-color: #3499;
+		font-family: 'Hubballi';
+		font-size: 2.4rem;
+		color: #FFFFFF;
+		padding: 1.3rem;
+		width: 25rem;
+		border-radius: 1rem;
+		display: block;
+		margin:0 auto;
+	}
+
+	#title{
+		font-family:'Smooch Sans';
+		color: #FFFFFF;
+		text-align: center;
+    	margin: 0;
+    	font-size:4.5rem ;
+    	text-shadow:;
+	}
+	#description{
+		font-family: 'Smooch sans';
+		color: #FFFFFF;
+		text-align: center;
+		margin: 0;
+		font-size: 3.2rem;
+		font-style: italic;
+	}
+
+	#name-input{
+		text-align: center;
+		font-size: 2.4rem;
+	}
+
+	#name{
+		display: block;
+		margin:0 auto ;
+		border-radius: 5px;
+	}
+
+	#email-input{
+		text-align: center;
+		font-size: 2.4rem;
+	}
+
+	#email{
+		display: block;
+		margin:0 auto ;
+		border-radius: 5px;
+	}
+
+	#number-input{
+		text-align: center;
+		font-size: 2.4rem;
+	}
+
+	#number{
+		width:11rem;
+		display: block;
+		margin: 0 auto;
+		border-radius: 5px;
+	}
+
+	#dropdown-input{
+		text-align: center;
+		font-size: 2.4rem;
+	}
+
+	#dropdown{
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 1rem;
+		text-align: center;
+		border-radius: 5px;
+	}
+
+	#checkbox-label{
+		font-size: 2.4rem;
+	}
+
+	#checkbox{
+		margin-bottom: 1rem;
+		text-align: center;
+	}
+
+	#radio-label{
+		font-size: 2.4rem;
+	}
+
+	#radio{
+		margin-bottom: 1rem;
+		text-align: center;
+	}
+
+	#opinions-input{
+		text-align:center ;
+	}
+
+	#opinions{
+		margin-bottom: 1rem; 
+		font-size: 1.8rem;
+		width: 25rem;
+		border-radius: 10px;
+	}
+
+	#submit-botton{
+		text-align: center;
+	}
+}
+/*background-color: #CCC5B9 ;
+background-color: #7E4EAC;
+color: #320072;
+
+*/

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Hubballi&family=Lobster&family=Luxurious+Roman&family=Roboto+Slab:wght@100;300;400&family=Smooch+Sans:wght@600&family=Spartan:wght@500&family=Twinkle+Star&display=swap" rel="stylesheet">
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css.css">
+	<title>Survey Form</title>
+</head>
+<body>
+
+	<h1 id="title">Internet Questions</h1>
+	<p id="description">A little questionnaire about the internet and its use.</p>
+
+	<form id="survey-form">
+			
+		<div id="border-form">
+
+			<div id="name-input">
+
+				<label id="name-label" for="name">Name:</label>
+
+				<input 
+
+				 type="text" 
+
+				 name="name"
+
+				 id="name" 
+
+				 placeholder="Enter your full name"
+
+				 required 
+
+				>
+			</div>
+
+			<div id="email-input">
+
+				<label id="email-label" for="email">E-mail:</label>
+
+				<input 
+
+				 type="email"
+
+				 name="email"
+
+				 id="email" 
+
+				 placeholder="Enter your E-mail"
+
+				 required 
+
+				>
+			</div>
+
+			<div id="number-input">
+				
+				<label id="number-label" for="number">Age:</label>
+
+				<input 
+
+				type="number" 
+
+				name="age" 
+
+				id="number" 
+				
+				placeholder="Select your age"
+
+				min="1" 
+
+				max="99" 
+
+				>
+			</div>
+					
+
+			<div id="dropdown-input">
+				<label >Do you know how the Internet works?<br></label>
+				<select id="dropdown">
+					
+					<option value = "yes">Yes</option>
+					<option value = "no">No</option>
+					<option value = "aLittle">A little</option>
+					
+				</select>
+					
+			</div>
+
+			<div id="checkbox">
+				
+				<label id="checkbox-label">What kind of devices with internet access do you have?<br></label>
+
+				<label> <input type="checkbox" name="checkbox-input" value="phone"  checked >A Phone<br></label>
+				
+				<label> <input type="checkbox" name="checkbox-input" value="computer" >A Computer<br></label>
+				
+				<label> <input type="checkbox" name="checkbox-input" value="gameConsole" >A Game Console<br></label>
+				
+				<label> <input type="checkbox" name="checkbox-input" value="other" >Other</label>
+
+
+			</div>
+
+			<div id="radio">
+				
+				<label id="radio-label">How much you use the internet in your daily life?<br></label>
+
+				<label> <input type="radio" name="radio-input" value="aLot"  checked >A Lot<br></label>
+				
+				<label> <input type="radio" name="radio-input" value="aLittle" >A Little<br></label>
+				
+				<label> <input type="radio" name="radio-input" value="none" >None<br></label>
+
+
+			</div>
+
+			<div id="opinions-input">
+				
+				<textarea id="opinions" name="opinions" placeholder="Please, give us your opinion about Internet..."></textarea> 
+
+			</div>
+
+			<div id="submit-botton">
+				
+				<button type="submit" id="submit">
+					Submit
+				</button>
+
+			</div>
+
+		
+
+		</div>
+
+	</form>
+
+
+</body>
+</html>
